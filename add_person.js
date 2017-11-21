@@ -27,7 +27,7 @@ knex('famous_people').insert({first_name:name, last_name: last, birthdate: date}
 
 .asCallback(function(err, rows) {
   if (err) return console.error(err);
-console.log('hey bitch');
+console.log('TEST TO SEE IF IT IS WORKING');
    });
 
 
